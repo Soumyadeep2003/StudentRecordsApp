@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_bg_home">
+
+    <!-- Add Student Button -->
+    <Button
+        android:id="@+id/addStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_student"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+
+    <!-- TextView for No Records -->
+    <TextView
+        android:id="@+id/noRecordsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_records_found"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>  <!-- Hidden initially -->
+
+    <!-- RecyclerView for Student Records -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addStudentButton"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>

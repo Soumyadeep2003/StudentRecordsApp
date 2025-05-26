@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Student Records App</string>
+    <string name="student_records">Student Records</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_department">Enter Department</string>
+    <string name="enter_date_of_birth">Enter Date of Birth</string>
+    <string name="age_will_be_automatically_calculated">Age (will be automatically calculated)</string>
+    <string name="enter_marks">Enter Marks</string>
+    <string name="enter_father_s_name">Enter Father\'s Name</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="save">Save</string>
+    <string name="view_records">View Records</string>
+    <string name="student_name">Student Name</string>
+    <string name="department">Department</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="select_date_of_birth">Select Date of Birth</string>
+    <string name="auto_calculated_from_dob">Auto-calculated from DOB</string>
+    <string name="marks">Marks</string>
+    <string name="father_s_name">Father\'s Name</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_student">Add Student</string>
+    <string name="no_records_found">No records found</string>
+    <string name="student_id">Student ID</string>
+    <string name="age">Age</string>
+    <string name="dob">DOB</string>
+    <string name="student_icon">Student Icon</string>
+    <string name="id_0">ID: 0</string>
+    <string name="edit_student">Edit Student</string>
+    <string name="delete_student">Delete Student</string>
+</resources>

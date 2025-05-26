@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow effect for 3D look -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+
+            <solid android:color="#B0BEC5"  /> <!-- Light Gray Shadow -->
+        </shape>
+    </item>
+
+    <!-- Main Background Layer -->
+    <item android:top="4dp" android:left="4dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#FFFFFF" /> <!-- White Background -->
+        </shape>
+    </item>
+
+</layer-list>
